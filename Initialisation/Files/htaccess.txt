@@ -1,0 +1,18 @@
+<FilesMatch "\.js\.gzip$">
+ AddType "text/javascript" .gzip
+</FilesMatch>
+<FilesMatch "\.css\.gzip$">
+  AddType "text/css" .gzip
+</FilesMatch>
+AddEncoding gzip .gzip
+
+RewriteEngine On
+RewriteRule ^typo3$ - [L]
+RewriteRule ^typo3/.*$ - [L]
+RewriteRule ^uploads/.*$ - [L]
+RewriteRule ^fileadmin/.*$ - [L]
+RewriteRule ^typo3conf/.*$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* /index.php

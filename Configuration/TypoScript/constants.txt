@@ -1,0 +1,8 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/constants.txt">
+
+<INCLUDE_TYPOSCRIPT: source="DIR: ./Library" extensions="txt">
+
+resDir = EXT:mydemodistribution/Resources
+
+## Default-Werte fuer meta-tags
+defaultDescription = Das ist meine erste Distribution

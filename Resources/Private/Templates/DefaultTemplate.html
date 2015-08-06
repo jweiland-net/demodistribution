@@ -1,0 +1,20 @@
+<f:layout name="DefaultLayout" />
+<f:section name="Main">
+<div class="main-container">
+	<div class="main wrapper clearfix">
+		<f:if condition="{contentAside}">
+			<f:then>
+				<article>
+			</f:then>
+			<f:else>
+				<article class="wide">
+			</f:else>
+		</f:if>
+			<f:format.raw>{contentMain}</f:format.raw>
+		</article>
+
+		<f:format.raw>{contentAside}</f:format.raw>
+
+	</div> <!-- #main -->
+</div> <!-- #main-container -->
+</f:section>

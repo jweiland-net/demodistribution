@@ -1,0 +1,2 @@
+options.pageTree.showPageIdWithTitle = 1
+options.clearCache.system = 1
