@@ -13,6 +13,8 @@ Sie finden die Video unter https://jweiland.net/video-anleitungen/typo3/typo3-pr
 
 Abhängige Extensions wie realurl und powermail etc. werden automatisch installiert und aktiviert
 
+ACHTUNG: es wird mindestens TYPO3 7.4.0 benötigt!
+
 ### .htaccess ###
 Es wird eine minimale Beispiel .htaccess mitgeliefert. Diese liegt nach der Installation im Verzeichnis fileadmin/mydemodistribution/htaccess.txt
 Diese benötigen Sie unter Umständen für RealUrl, falls in Ihrem Projektverzeichnis noch keine .htaccess liegen sollte.
