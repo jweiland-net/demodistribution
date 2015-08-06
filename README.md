@@ -1,7 +1,7 @@
 # Demo-Distribution #
 
 Diese Demo-Distribution wurde während eine Video-Kurses entwickelt.
-Sie finden die Video unter https://jweiland.net/video-anleitungen/typo3/typo3-projekte-verwalten/templates-als-distribution.html
+Sie finden die Videos unter https://jweiland.net/video-anleitungen/typo3/typo3-projekte-verwalten/templates-als-distribution.html
 
 ## Installation ##
 
