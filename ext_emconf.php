@@ -24,7 +24,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '1.0.0',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '7.4.0-7.9.99',
+			'typo3' => '7.6.2
+			-7.9.99',
 			'version' => '',
 			'recycler' => '',
 			'filemetadata' => '',
