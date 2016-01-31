@@ -2,7 +2,7 @@
 lib.footernav = HMENU
 lib.footernav {
 	special = directory
-	special.value = 7
+	special.value = 2
 
 	1 = TMENU
 	1 {

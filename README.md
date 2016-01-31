@@ -10,6 +10,7 @@ Sie finden die Videos unter https://jweiland.net/video-anleitungen/typo3/typo3-p
 * wechseln Sie in das Verzeichnis typo3conf/ext/
 * Klonen Sie dieses Git-Repo dort hinein
 * Im Extension-Manager die Extension demodistribution aktivieren
+* Ggf. noch die statischen Templates von fluid_styled_content und powermail im Root-Template inkludieren
 
 Abhängige Extensions wie realurl und powermail etc. werden automatisch installiert und aktiviert
 
