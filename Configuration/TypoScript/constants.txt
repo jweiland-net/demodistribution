@@ -2,7 +2,7 @@
 
 <INCLUDE_TYPOSCRIPT: source="DIR: ./Library" extensions="txt">
 
-resDir = EXT:mydemodistribution/Resources
+resDir = EXT:demodistribution/Resources
 
 ## Default-Werte fuer meta-tags
 defaultDescription = Das ist meine erste Distribution

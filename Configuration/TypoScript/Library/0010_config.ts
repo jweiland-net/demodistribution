@@ -15,4 +15,6 @@ config {
 
 	compressJs = 1
 	concatenateJs = 1
+
+	contentObjectExceptionHandler = 0
 }

@@ -44,13 +44,12 @@ page.10 {
 
 page.10.file.stdWrap.cObject = CASE
 page.10.file.stdWrap.cObject {
-	key.data = levelfield:-1, backend_layout_next_level, slide
-	key.override.field = backend_layout
+	key.data = pagelayout
 
 	# Default Template
 	default = TEXT
 	default.value = {$resDir}/Private/Templates/DefaultTemplate.html
 
-	1 < .default
+	pagets__1 < .default
 
 }
