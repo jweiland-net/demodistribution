@@ -9,10 +9,13 @@ Sie finden die Videos unter https://jweiland.net/video-anleitungen/typo3/typo3-p
 * Aktualisieren Sie im Extension Manager die Liste der Extensions
 * wechseln Sie in das Verzeichnis typo3conf/ext/
 * Klonen Sie dieses Git-Repo dort hinein
+* Im Extension Manager die Extension css_styled_content deaktiveren
 * Im Extension-Manager die Extension demodistribution aktivieren
 * Ggf. noch die statischen Templates von fluid_styled_content und powermail im Root-Template inkludieren
 
 Abhängige Extensions wie realurl und powermail etc. werden automatisch installiert und aktiviert
+
+Sollte danach im Frontend eine Fehlermeldung erscheinen, dass die "Rendering definition" von "Text&Media" fehlt -> Im Installtool ein Database Compare ausführen, danach dort alles Caches leeren (und, sofern vorhanden, den PHP OPCode-Cache).
 
 ACHTUNG: es wird mindestens TYPO3 7.6.2 benötigt!
 
