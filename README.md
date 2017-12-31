@@ -20,11 +20,11 @@ Sollte danach im Frontend eine Fehlermeldung erscheinen, dass die "Rendering def
 ACHTUNG: es wird mindestens TYPO3 7.6.2 benötigt!
 
 ### .htaccess ###
-Es wird eine minimale Beispiel .htaccess mitgeliefert. Diese liegt nach der Installation im Verzeichnis fileadmin/mydemodistribution/htaccess.txt
+Es wird eine minimale Beispiel .htaccess mitgeliefert. Diese liegt nach der Installation im Verzeichnis fileadmin/demodistribution/htaccess.txt
 Diese benötigen Sie unter Umständen für RealUrl, falls in Ihrem Projektverzeichnis noch keine .htaccess liegen sollte.
 Um diese Datei zu verwenden, kopieren Sie sie in das Root-Verzeichnis des TYPO3-Projekts un benennen Sie sie um in .htaccess, z.B. mit dem Befehl
 
-_cp fileadmin/mydemodistribution/htaccess.txt ./.htaccess_
+_cp fileadmin/demodistribution/htaccess.txt ./.htaccess_
 
 ### RealUrl ###
 Es kann (für den Anfang) die automatische Konfiguration von RealUrl verwendet werden.

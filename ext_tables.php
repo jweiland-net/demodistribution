@@ -1,6 +1,11 @@
 <?php
-if (!defined('TYPO3_MODE')) {
-	die('Access denied.');
-}
+defined('TYPO3_MODE') || die('Access denied.');
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'My Distribution');
+call_user_func(
+    function()
+    {
+
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('demodistribution', 'Configuration/TypoScript', 'My Distribution');
+
+    }
+);
