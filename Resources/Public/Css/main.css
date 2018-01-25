@@ -88,11 +88,6 @@ body {
     color: white;
 }
 
-.title a,
-.title a:visited {
-    color: #fff;
-    text-decoration: none;
-}
 /* ==============
     MOBILE: Menu
    ============== */
@@ -159,10 +154,15 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.title a,
+.title a:visited,
 .footer-container a,
 .footer-container a:visited {
     color: #fff;
     text-decoration: none;
+}
+
+.footer-container a {
     margin-right: 1em;
 }
 
@@ -170,17 +170,9 @@ nav a:hover {
     font-weight: bold;
 }
 
-article.wide {
-    width: 100% !important;
+.main article.wide {
+    width: 100%;
 }
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================

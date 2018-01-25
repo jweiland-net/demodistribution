@@ -1,0 +1,19 @@
+{
+    "name": "mycompany/demodistribution",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Wolfgang Wagner",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCompany\\Demodistribution\\": "Classes"
+        }
+    }
+}

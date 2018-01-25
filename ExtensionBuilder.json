@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "distribution",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "8.7.9"
+        },
+        "extensionKey": "demodistribution",
+        "name": "My Distribution",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "jweiland.net",
+                "email": "wwagner@jweiland.net",
+                "name": "Wolfgang Wagner",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "MyCompany"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-12-30 06:02",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}
