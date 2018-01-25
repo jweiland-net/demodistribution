@@ -3,6 +3,8 @@
 Diese Demo-Distribution wurde während eine Video-Kurses entwickelt.
 Sie finden die Videos unter https://jweiland.net/video-anleitungen/typo3/typo3-projekte-verwalten/templates-als-distribution.html
 
+## Dieses Template wird nicht mehr länger gepflegt oder weiterentwickelt. Es diente nur als Beispiel für TYPO3 7 ##
+
 ## Installation ##
 
 * Beginnen Sie mit einem leeren TYPO3-Projekt
